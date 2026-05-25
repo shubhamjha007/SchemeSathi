@@ -1,0 +1,1 @@
+(Reason given by checker) and will take Action by clicking the specific button according the remarks. After doing the required correction click on Update details. Here the Resubmission is completed successfully. Application form will be moved to the Checker login again.

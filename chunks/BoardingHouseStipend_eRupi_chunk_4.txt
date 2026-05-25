@@ -1,0 +1,1 @@
+is required. If not then Sl. No. 13 to 16 may be removed. • As data will be entered by Hostel Superintendent so system will know the hostel name (office name) which is mapped to that user. So, no need to keep hostel name in the form. Supporting Documents: 1. ST Certificate – fetch from e-District / DigiLocker; if not available then may upload.

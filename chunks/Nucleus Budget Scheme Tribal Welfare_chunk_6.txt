@@ -1,0 +1,1 @@
+Account No. 14 Name as per Bank Passbook 15 Bank Name 16 IFS Code 17 Branch name 18 Photograph Scheme Specific Fields 19 Assistance for (Reimbursement/ Referral) 20 Income (Rs.) / Annum (fetch from e-District) 21 Hospital Name/ name of the prescribing Doctor 21 Claim Amount (Rs.)
