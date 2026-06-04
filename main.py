@@ -17,7 +17,7 @@ os.makedirs(CHUNK_FOLDER, exist_ok=True)
 
 
 
-# TEXT CLEANING FUNCTION
+
 
 def clean_text(text):
 
@@ -34,11 +34,11 @@ splitter = RecursiveCharacterTextSplitter(
     chunk_overlap=50
 )
 
-# PDF PROCESSING LOOP
+
 
 for file_name in os.listdir(PDF_FOLDER):
 
-    # Process only PDFs
+    
     if file_name.endswith(".pdf"):
 
         file_path = os.path.join(PDF_FOLDER, file_name)
@@ -49,7 +49,7 @@ for file_name in os.listdir(PDF_FOLDER):
 
         try:
 
-            # NORMAL PDF EXTRACTION
+            
          
 
             reader = PdfReader(file_path)
@@ -58,7 +58,7 @@ for file_name in os.listdir(PDF_FOLDER):
 
                 extracted_text = page.extract_text()
 
-                # IF NORMAL TEXT EXISTS
+                
                
 
                 if extracted_text and extracted_text.strip():
@@ -68,7 +68,7 @@ for file_name in os.listdir(PDF_FOLDER):
                     final_text += extracted_text + " "
 
             
-                # OCR FALLBACK
+                
               
 
                 else:
